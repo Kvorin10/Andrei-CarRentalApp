@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1200.0" style="-fx-background-color: #F7F7F7;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Marketplace">
+   <children>
+      <AnchorPane prefHeight="650.0" prefWidth="214.0" style="-fx-background-color: #F7F7F7;">
+         <children>
+            <ImageView fitHeight="161.0" fitWidth="172.0" layoutX="27.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/logoCar.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="42.0" layoutY="214.0" mnemonicParsing="false" onAction="#goToSpeciaOffers" prefHeight="37.0" prefWidth="116.0" stylesheets="@style.css" text="Special Offers" textFill="#006838">
+               <styleClass>
+                  <String fx:value="purple-button" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font></Button>
+            <Button layoutX="42.0" layoutY="281.0" mnemonicParsing="false" onAction="#goToTerms" prefHeight="37.0" prefWidth="116.0" stylesheets="@style.css" text="Terms">
+               <styleClass>
+                  <String fx:value="purple-button" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+      <HBox layoutX="214.0" layoutY="117.0" prefHeight="221.0" prefWidth="986.0" spacing="15.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="229.0" style="-fx-background-color: #F7F7F7;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/toyota.png" />
+                     </image>
+                  </ImageView>
+                  <HBox alignment="CENTER" layoutX="37.0" layoutY="141.0" prefHeight="47.0" prefWidth="157.0" spacing="5.0">
+                     <children>
+                        <Label text="Toyota Aygo" textFill="#006838">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#toyotaPage" stylesheets="@style.css" text="More...">
+                           <styleClass>
+                              <String fx:value="purple-button" />
+                              <String fx:value="shadow" />
+                           </styleClass></Button>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="229.0" style="-fx-background-color: #F7F7F7;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/dacia_duster.png" />
+                     </image>
+                  </ImageView>
+                  <HBox alignment="CENTER" layoutX="37.0" layoutY="141.0" prefHeight="47.0" prefWidth="157.0" spacing="5.0">
+                     <children>
+                        <Label text="Dacia Duster" textFill="#006838">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#daciaDusterPage" stylesheets="@style.css" text="More...">
+                           <styleClass>
+                              <String fx:value="purple-button" />
+                              <String fx:value="shadow" />
+                           </styleClass></Button>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="239.0" layoutY="10.0" prefHeight="200.0" prefWidth="229.0" style="-fx-background-color: #F7F7F7;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/ford_ecosport.png" />
+                     </image>
+                  </ImageView>
+                  <HBox alignment="CENTER" layoutX="37.0" layoutY="141.0" prefHeight="47.0" prefWidth="157.0" spacing="5.0">
+                     <children>
+                        <Label text="Ford Ecosport" textFill="#006838">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#fordEcosportPage" stylesheets="@style.css" text="More...">
+                           <styleClass>
+                              <String fx:value="purple-button" />
+                              <String fx:value="shadow" />
+                           </styleClass></Button>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="468.0" layoutY="10.0" prefHeight="200.0" prefWidth="229.0" style="-fx-background-color: #F7F7F7;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/opel_astra.png" />
+                     </image>
+                  </ImageView>
+                  <HBox alignment="CENTER" layoutX="37.0" layoutY="141.0" prefHeight="47.0" prefWidth="157.0" spacing="5.0">
+                     <children>
+                        <Label text="Opel Astra" textFill="#006838">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#opelAstraPage" stylesheets="@style.css" text="More...">
+                           <styleClass>
+                              <String fx:value="purple-button" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </children>
+         <padding>
+            <Insets left="13.0" top="10.0" />
+         </padding>
+      </HBox>
+      <AnchorPane layoutX="214.0" layoutY="614.0" prefHeight="37.0" prefWidth="986.0" style="-fx-background-color: #F7F7F7;">
+         <children>
+            <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="586.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/instagram.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="621.0" layoutY="11.0" text="europ_car" textFill="#006838">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="710.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/twitter.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="747.0" layoutY="11.0" text="europ_car.twit" textFill="#006838">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="857.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/whatsapp.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="894.0" layoutY="11.0" text="0754936491" textFill="#006838">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Line endX="543.0" layoutX="443.0" startX="-443.0" />
+         </children>
+      </AnchorPane>
+      <HBox layoutX="214.0" layoutY="367.0" prefHeight="221.0" prefWidth="986.0" spacing="15.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="229.0" style="-fx-background-color: #F7F7F7;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/opel_corsa.png" />
+                     </image>
+                  </ImageView>
+                  <HBox alignment="CENTER" layoutX="37.0" layoutY="141.0" prefHeight="47.0" prefWidth="157.0" spacing="5.0">
+                     <children>
+                        <Label text="Opel Corsa" textFill="#006838">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#opelCorsaPage" stylesheets="@style.css" text="More..">
+                           <styleClass>
+                              <String fx:value="purple-button" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="229.0" style="-fx-background-color: #F7F7F7;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/opel_insignia.png" />
+                     </image>
+                  </ImageView>
+                  <HBox alignment="CENTER" layoutX="37.0" layoutY="141.0" prefHeight="47.0" prefWidth="157.0" spacing="5.0">
+                     <children>
+                        <Label text="Opel Insignia" textFill="#006838">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#opelInsigniaPage" stylesheets="@style.css" text="More..">
+                           <styleClass>
+                              <String fx:value="purple-button" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="239.0" layoutY="10.0" prefHeight="200.0" prefWidth="229.0" style="-fx-background-color: #F7F7F7;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/opel_vivaro.png" />
+                     </image>
+                  </ImageView>
+                  <HBox alignment="CENTER" layoutX="37.0" layoutY="141.0" prefHeight="47.0" prefWidth="157.0" spacing="5.0">
+                     <children>
+                        <Label text="Opel Vivaro" textFill="#006838">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#opelVivaroPage" stylesheets="@style.css" text="More..">
+                           <styleClass>
+                              <String fx:value="purple-button" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="468.0" layoutY="10.0" prefHeight="200.0" prefWidth="229.0" style="-fx-background-color: #F7F7F7;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/renaul_trafic.png" />
+                     </image>
+                  </ImageView>
+                  <HBox alignment="CENTER" layoutX="37.0" layoutY="141.0" prefHeight="47.0" prefWidth="157.0" spacing="5.0">
+                     <children>
+                        <Label text="Renault Trafic" textFill="#006838">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#renaulTraficPage" stylesheets="@style.css" text="More..">
+                           <styleClass>
+                              <String fx:value="purple-button" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </children>
+         <padding>
+            <Insets left="13.0" top="10.0" />
+         </padding>
+      </HBox>
+      <AnchorPane layoutX="214.0" prefHeight="64.0" prefWidth="986.0" style="-fx-background-color: #F7F7F7;">
+         <children>
+            <Line endX="885.0" endY="1.0" layoutX="101.0" layoutY="65.0" startX="-100.0" />
+         </children>
+      </AnchorPane>
+      <Line endX="-163.0" endY="587.0" layoutX="377.0" layoutY="64.0" startX="-163.0" startY="-64.0" />
+   </children>
+</AnchorPane>

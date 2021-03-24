@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TermsController">
+   <children>
+      <Label layoutX="79.0" layoutY="20.0" text="Terms &amp; Conditions" textFill="#006838">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="62.0" prefHeight="420.0" prefWidth="471.0" text="Our Website is a travel search engine. KAYAK does not provide, own or control any of the travel services and products that you can access through Our Website, such as flights, accommodations, rental cars, packages, or travel insurance (the “Travel Products”). The Travel Products are owned, controlled or made available by third parties (the “Travel Providers”) either directly (e.g., airline) or as an agent (e.g., online travel agency). The Travel Providers are responsible for the Travel Products. The Travel Provider’s terms and privacy policies apply to your booking so you must agree to and understand those terms. Furthermore, the terms of the actual travel provider (airline, hotel, tour operator, etc.) apply to your travel, so you must also agree to and understand those terms. Your interaction with any Travel Provider accessed through Our Website is at your own risk; KAYAK does not bear any responsibility should anything go wrong with your booking or during your travel.The display on Our Website of a Travel Product or Travel Provider does not—in any way—imply, suggest, or constitute a recommendation by KAYAK of that Travel Product or Travel Provider, or any sponsorship or approval of KAYAK by such Travel Provider, or any affiliation between such Travel Provider and KAYAK.KAYAK hosts content, including prices, made available by or obtained from Travel Providers. KAYAK is in no way responsible for the accuracy, timeliness or completeness of such content. Since KAYAK has no control over the Travel Products and does not verify the content uploaded by the Travel Providers, it is not possible for us to guarantee the prices displayed on Our Website. Prices change constantly and additional charges (e.g., payment fees, services charges, checked-in luggage fees, local taxes and fees) may apply, so you should always check whether the price asked for a booking is the one you expected. More details here. Some Travel Products may also be sold in another currency than the one preset or chosen by you for the display of the search results. " wrapText="true" />
+      <Button layoutX="413.0" layoutY="482.0" mnemonicParsing="false" onAction="#goToMarketPlace" text="Go Back">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

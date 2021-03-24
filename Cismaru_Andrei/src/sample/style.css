@@ -1,0 +1,8 @@
+.purple-button{
+    -fx-background-color: #96CF24;
+    -fx-background-radius: 100;
+}
+
+.shadow{
+    -fx-effect: dropShadow(one-pass-box,rgba(0,0,0,0.3), 10.0 , 0.0 , 0.0, 10.0);
+}
